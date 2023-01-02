@@ -1,0 +1,1 @@
+export {default as HeroImage } from './PngItem_477897.png'
