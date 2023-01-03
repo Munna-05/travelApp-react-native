@@ -43,7 +43,7 @@ const HomeScreen = () => {
                 <>
                     <TouchableOpacity 
                     onPress={()=>navigate.navigate("Discover")}
-                    className='absolute bottom-20 border-r-4 rounded-full w-28 h-28 pt-1.5 border-teal-500 border-t-4 border-l-4'>
+                    className='absolute bottom-20 border-r-4 rounded-full w-28 h-28 pt-1 border-teal-500 border-t-4 border-l-4'>
                         <Animatable.View animation='pulse' easing='ease-in-out' className=' w-24 h-24 bg-teal-400 border border-white my-auto mx-auto  shadow-neutral-900 rounded-full'>
                             <Text className='text-5xl font-semibold text-teal-800 mx-auto my-auto mt-6'>Go</Text>
                         </Animatable.View>
